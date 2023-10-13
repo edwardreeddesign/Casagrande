@@ -7,7 +7,7 @@ import { useRouter } from 'next/router';
 const Full = () => {
   const router = useRouter();
   return (
-    <nav className="w-full flex justify-between items-center px-8 py-4 shadow-md bg-white/50 fixed top-0">
+    <nav className="w-full flex justify-between items-center px-8 py-4 shadow-md bg-white/50 fixed top-0 z-50">
       <Link href="/">
         <img
           src="/images/logo.png"

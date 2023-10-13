@@ -16,7 +16,7 @@ const Layout = ({ children, title, description }) => {
         <meta name="description" content={description || defaultDescription} />
       </Head>
       <motion.div>
-        <div className="flex justify-between min-h-screen flex-col bg-white w-full pt-28">
+        <div className="flex justify-between min-h-screen flex-col bg-white w-full pt-[4.5rem] md:pt-[5rem]">
           {/* <Nav /> */}
           <Full />
           <main>{children}</main>

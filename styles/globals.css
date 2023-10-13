@@ -43,3 +43,24 @@ h4 {
 p {
   @apply font-[inter];
 }
+
+.afterTitle::after {
+  content: '';
+  width: 30%;
+  height: 2px;
+  background: orange;
+  position: absolute;
+  bottom: -20%;
+  left: 45%;
+  border-radius: 5rem;
+}
+
+@media (min-width: 768px) {
+  .afterTitle::after {
+    width: 20%;
+  }
+}
+
+.btn {
+  @apply py-3 px-2 bg-orange-400 rounded-md shadow-shadow1 transition-all duration-300 hover:scale-95 border-none uppercase text-lg font-[raleway];
+}

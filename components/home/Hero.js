@@ -5,7 +5,7 @@ const Hero = () => {
       <img
         src="/images/hero.jpg"
         alt="marble kitchen"
-        className="w-full object-fill"
+        className="w-full h-full object-fill"
       />
       <div className="absolute w-full h-full top-0 bg-black/50" />
 

@@ -118,7 +118,7 @@ p {
 
 .active {
   position: relative;
-  color: hsl(20, 77%, 72%);
+  color: black;
   font-weight: bold;
   transition: all 350ms ease;
 }

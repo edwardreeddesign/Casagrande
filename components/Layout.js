@@ -1,6 +1,8 @@
 import Head from 'next/head';
 import { motion } from 'framer-motion';
 import Full from './header/Full';
+import Footer from './footer/Footer';
+import Nav from './header/Nav';
 
 const Layout = ({ children, title, description }) => {
   const defaultTitle = 'Casagrande Granite and Marble';
@@ -18,10 +20,11 @@ const Layout = ({ children, title, description }) => {
       <motion.div>
         <div className="flex justify-between min-h-screen flex-col bg-white w-full pt-[4.5rem] md:pt-[5rem]">
           {/* <Nav /> */}
-          <Full />
+          <Nav />
           <main>{children}</main>
         </div>
       </motion.div>
+      <Footer />
     </>
   );
 };

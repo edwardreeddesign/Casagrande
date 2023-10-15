@@ -3,7 +3,7 @@ import Layout from '../components/Layout';
 const AboutPage = () => {
   return (
     <Layout title="About">
-      <div className="mb-4 md:px-8 lg:px-20">
+      <div className="mb-8 md:px-8 lg:px-20">
         <h1 className="text-2xl md:text-3xl lg:text-4xl text-center  tracking-widest font-thin relative mb-8">
           Casagrande Granite and Marble
           <div className=" absolute  w-1/2   bg-orange-400 h-[2px]  bottom-[-20%] left-[40%] " />

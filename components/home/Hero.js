@@ -1,11 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
 const Hero = () => {
   return (
-    <section className="relative w-full min-h-[75%]">
+    <section className="relative w-full h-[75vh] overflow-hidden">
       <img
         src="/images/hero.jpg"
         alt="marble kitchen"
-        className=" h-full object-cover"
+        className="  h-full w-full object-cover"
       />
       <div className="absolute w-full h-full top-0 bg-black/50" />
 

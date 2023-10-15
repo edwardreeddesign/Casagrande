@@ -22,9 +22,9 @@ const Layout = ({ children, title, description }) => {
           {/* <Nav /> */}
           <Nav />
           <main>{children}</main>
+          <Footer />
         </div>
       </motion.div>
-      <Footer />
     </>
   );
 };

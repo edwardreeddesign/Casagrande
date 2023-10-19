@@ -29,8 +29,8 @@ const CarePage = () => {
                 By conscientiously applying the granite care and cleaning
                 techniques outlined below to all your countertops, regardless of
                 the stone or surface type, you can effortlessly preempt most
-                potential issues. This ensures you won't need to dwell on the
-                process or fret about inadvertently causing damage.
+                potential issues. This ensures you won&apos;t need to dwell on
+                the process or fret about inadvertently causing damage.
               </p>
             </div>
             <div>

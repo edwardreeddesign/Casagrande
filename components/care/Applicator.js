@@ -6,7 +6,7 @@ const Applicator = () => {
         Casagrande Granite and Marble is an Accredited Applicator of
         Dry-Treat(TM) Sealing Products. Call for an appointment today.
       </h1>
-      <div className="mt-10 mb-5">
+      <div className="mt-10 mb-5 flex items-center justify-center flex-col">
         <img
           src="/images/care/Hanafin.jpg"
           alt="Hanafin products"
@@ -42,37 +42,37 @@ const Applicator = () => {
           the treated material.
         </p>
       </div>
-      <div>
+      <div className="flex items-center justify-center flex-col">
         <img src="/images/care/drytreat.jpg" alt="Sealer" />
-        <h3 className=" font-semibold">
-          Dry-Treat impregnators provide superior protection.
-        </h3>
-        <h4 className="font-semibold text-sm mb-4">
-          Super oil and water repellence = superior stain protection.
-        </h4>
-        <ul>
-          <li>
-            • Deeper penetration and permanent bonding = permanent PLUS premium
-            protection from efflorescence, salt spalling, freeze-thaw spalling
-            and picture framing.
-          </li>
-          <li>
-            • For indoor and outdoor use on residential and commercial projects
-            on floors, patios, entertaining areas, facades, cladding, pool
-            surrounds and walls.
-          </li>
-          <li>
-            • The penetrating sealers even stand up to commercial cleaning
-            techniques e.g. high pressure hosing and maintains the slip
-            resistance of the surface.
-          </li>
-        </ul>
-        <cite className="text-xs font-light text-gray-400">
-          Written 5, 15, 25 and 30 year performance warranties are available
-          when our impregnating sealers are applied by a Dry-Treat Accredited
-          Applicator.
-        </cite>
       </div>
+      <h3 className=" font-semibold">
+        Dry-Treat impregnators provide superior protection.
+      </h3>
+      <h4 className="font-semibold text-sm mb-4">
+        Super oil and water repellence = superior stain protection.
+      </h4>
+      <ul>
+        <li>
+          • Deeper penetration and permanent bonding = permanent PLUS premium
+          protection from efflorescence, salt spalling, freeze-thaw spalling and
+          picture framing.
+        </li>
+        <li>
+          • For indoor and outdoor use on residential and commercial projects on
+          floors, patios, entertaining areas, facades, cladding, pool surrounds
+          and walls.
+        </li>
+        <li>
+          • The penetrating sealers even stand up to commercial cleaning
+          techniques e.g. high pressure hosing and maintains the slip resistance
+          of the surface.
+        </li>
+      </ul>
+      <cite className="text-xs font-light text-gray-400">
+        Written 5, 15, 25 and 30 year performance warranties are available when
+        our impregnating sealers are applied by a Dry-Treat Accredited
+        Applicator.
+      </cite>
     </div>
   );
 };

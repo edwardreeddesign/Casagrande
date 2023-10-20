@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Layout from '../components/Layout';
+import Applicator from '../components/care/Applicator';
 import MaterialWidget from '../components/care/MaterialWidget';
 import ProductsWidget from '../components/care/ProductsWidget';
 import Questions from '../components/care/Questions';
@@ -54,6 +55,9 @@ const CarePage = () => {
             <ProductsWidget />
           </div>
         </div>
+      </div>
+      <div className="my-8 px-8 lg:px-16">
+        <Applicator />
       </div>
     </Layout>
   );
